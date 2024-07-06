@@ -78,7 +78,7 @@ main{
 section{
     object-fit: cover;
 }
-button:hover{
+a:hover{
     opacity:0.7;
 }
 /************************************
