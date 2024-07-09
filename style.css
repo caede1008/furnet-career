@@ -181,7 +181,7 @@ CTAセクション１
     background: linear-gradient(120deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.1));
     transform: skewX(-30deg);
     transition: 200ms;
-    animation: shinyshiny 1s ease-in-out infinite;
+    animation: shinyshiny 2s ease-in-out infinite;
     z-index: 99;
 }
 .button-box1:hover::before {
@@ -214,7 +214,7 @@ CTAセクション１
 .prev-arrow2 {
     width: 10%;
     top:100%;
-    left: 20%;
+    left: 25%;
     top: 97%;
     border:0px;
     background-size: contain;
@@ -224,7 +224,7 @@ CTAセクション１
 .next-arrow2 {
     width: 10%;
     top:100%;
-    right: 20%;
+    right: 25%;
     top: 97%;
     border:0px;
     background-size: contain;
@@ -234,7 +234,7 @@ CTAセクション１
 .slide-dots{
     display: flex;
     justify-content: space-between;
-    width: 30%;
+    width: 27%;
     margin: auto;
     margin-top: 5%;
 }
@@ -258,9 +258,13 @@ CTAセクション１
 ************************************/
 .video-section{
     background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding: 2% 0%;
 }
 .smart-phone-video{
-    width: 100%;
+    width: 70%;
 }
 source{
     width: 100%;
@@ -307,7 +311,7 @@ CTAセクション２
     background: linear-gradient(120deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.1));
     transform: skewX(-30deg);
     transition: 200ms;
-    animation: shinyshiny 1s ease-in-out infinite;
+    animation: shinyshiny 2s ease-in-out infinite;
     z-index: 99;
 }
 .button-box2:hover::before {
@@ -326,17 +330,20 @@ SP
         height: 75vh;
     }
     .slide-dots{
-        width: 60%;
+        width: 30%;
     }
     .next-arrow2{
         top:95%;
-        right: 7%;
+        right: 20%;
         font-size: 1.5rem;
     }
     .prev-arrow2{
         top:95%;
-        left: 7%;
+        left: 20%;
         font-size: 1.5rem;
+    }
+    .slide-dots li button{
+        width: 45%;
     }
     .cta-section1{
         width: 100%;
