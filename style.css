@@ -353,7 +353,7 @@ SP
         height: 11.5vh;
     }
     .cta-section2{
-        height: 30vh;
+        height: 37vh;
     }
     .cta-button2{
         height: 10.7vh;
@@ -388,7 +388,7 @@ SP
 }
 @media (max-width: 376px) {
     .cta-section2 {
-        height: 40vh;
+        height: 45vh;
     }
 }
 
