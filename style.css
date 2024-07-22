@@ -325,6 +325,7 @@ CTAセクション２
 /************************************
 SP
 ************************************/
+
 @media (max-width: 590px) {
     .hikoukai-section{
         height: 75vh;
@@ -353,11 +354,16 @@ SP
         height: 11.5vh;
     }
     .cta-section2{
-        height: 37vh;
+        height: 43vh;
     }
     .cta-button2{
         height: 10.7vh;
         top:80%;
+    }
+}
+@media (max-width: 500px) {
+    .cta-section2{
+        height: 37vh;
     }
 }
 @media (max-width: 399px) {
